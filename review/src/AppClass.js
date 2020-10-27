@@ -28,7 +28,7 @@ class AppClass extends React.Component {
     console.log(prevState, this.state);
 
     if(this.state.name !== prevState.name) {
-
+      
     }
   }
 
