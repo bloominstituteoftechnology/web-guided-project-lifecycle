@@ -13,7 +13,7 @@ const AppFunc = () => {
 
   useEffect(()=>{
     console.log("APPFUNC: Component Updated");
-  });
+  }, [name]);
 
   console.log("APPFUNC: Component Rendered");
   return (
