@@ -6,6 +6,7 @@ class AppClass extends React.Component {
     this.state = {
       name: "Warren"
     };
+    console.log("APPCLASS: App constructed");
   }
 
   handleNameButtonClick = (e) => {
@@ -14,6 +15,7 @@ class AppClass extends React.Component {
       name: "Allison"
     });
   };
+
 
 
   render() {
