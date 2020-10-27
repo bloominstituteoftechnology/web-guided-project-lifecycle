@@ -8,6 +8,10 @@ const AppFunc = () => {
   console.log("APPFUNC: Component Constructed");
 
   useEffect(()=>{
+    console.log("APPFUNC: Component Mounted");
+  }, []);
+
+  useEffect(()=>{
     console.log("APPFUNC: Component Updated");
   });
 
