@@ -26,6 +26,10 @@ class AppClass extends React.Component {
     console.log(prevProps, this.props);
     console.log("STATE---------------");
     console.log(prevState, this.state);
+
+    if(this.state.name !== prevState.name) {
+
+    }
   }
 
   render() {
