@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const AppFunc = () => {
   const [name, setName] = useState("Warren");
   const handleClick = () => {
     setName("Allison");
   };
+
+  useEffect(()=>{
+    console.log("APPFUNC: Component Updated");
+  });
 
   return (
     <div>
