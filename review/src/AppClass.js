@@ -6,7 +6,7 @@ class AppClass extends React.Component {
     this.state = {
       name: "Warren"
     };
-    console.log("APPCLASS: App constructed");
+    console.log("APPCLASS: Component Constructed");
   }
 
   handleNameButtonClick = (e) => {
@@ -17,8 +17,8 @@ class AppClass extends React.Component {
   };
 
 
-
   render() {
+    console.log("APPCLASS: Component Rendered");
     return (
       <div>
         <h1>Hello {this.state.name}.</h1>
