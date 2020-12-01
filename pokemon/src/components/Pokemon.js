@@ -18,43 +18,4 @@ function Pokemon(props) {
   );
 }
 
-Pokemon.propTypes = {
-  pokemon: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      img: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      type: PropTypes.arrayOf(
-        PropTypes.oneOf([
-          'Grass',
-          'Poison',
-          'Fire',
-          'Flying',
-          'Water',
-          'Bug',
-          'Normal',
-          'Electric',
-          'Psychic',
-          'Ground',
-          'Fighting',
-          'Rock',
-          'Ice',
-          'Ghost',
-          'Dragon'
-        ])
-      ),
-      next_evolution: PropTypes.arrayOf(
-        PropTypes.shape({
-          num: PropTypes.string,
-          name: PropTypes.string
-        })
-      )
-    })
-  )
-};
-
-Pokemon.defaultProps = {
-  pokemon: []
-};
-
 export default Pokemon;
