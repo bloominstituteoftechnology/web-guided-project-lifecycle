@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const AppFunc = () => {
   const [name, setName] = useState("Warren");
+  
   const handleClick = () => {
     setName("Allison");
   };
