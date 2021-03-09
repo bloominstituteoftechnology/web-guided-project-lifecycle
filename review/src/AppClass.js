@@ -6,7 +6,6 @@ class AppClass extends React.Component {
     this.state = {
       name: "Warren"
     };
-    console.log("APPCLASS: Component Constructed");
   }
 
   handleNameButtonClick = (e) => {
