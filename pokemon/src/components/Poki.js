@@ -2,7 +2,7 @@ import React from 'react';
 
 class Poki extends React.Component {
     render() {
-        const { pokemon } = props;
+        const { pokemon } = this.props;
 
         return(
         <div key={pokemon.id} className="pokemon">
@@ -15,3 +15,5 @@ class Poki extends React.Component {
         </div>);
     }
 }
+
+export default Poki;
