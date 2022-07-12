@@ -14,7 +14,6 @@ class AppClass extends React.Component {
       name: "Allison"
     });
   };
-
   
   render() {
     return (
