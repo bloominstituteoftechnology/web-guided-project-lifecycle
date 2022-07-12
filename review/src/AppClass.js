@@ -20,7 +20,7 @@ class AppClass extends React.Component {
     return (
       <div>
         <h1>Hello {this.state.name}.</h1>
-        <button onClick={this.handleNameButtonClick}>MAKE IS ALLISON</button>
+        <button onClick={this.handleNameButtonClick}>MAKE IT ALLISON</button>
       </div>
     );
   }
